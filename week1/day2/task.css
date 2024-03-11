@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    margin:300px 400px 200px 900px;
+    width: 400px;
+    height: 400px;
+    padding: 50px 50px 50px 40px;
+    border-radius: 30px;
+}
+
+.head {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: rgb(219, 181, 255);
+    width: 90px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.body {
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+    font-weight: normal;
+}
+
+button {
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(142, 63, 216);
+    font-size: 22px;
+    font-style: italic;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: white;
+    color: blueviolet;
+    border-style: solid;
+    border-width: 4px;
+    border-color: blueviolet;
+
+}
